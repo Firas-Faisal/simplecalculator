@@ -15,6 +15,7 @@ mainmenu(){
   print("3-multiplication");
   print("4-division");
   print("5-Exit");
+  stdout.write(":");
   choosemenu= stdin.readLineSync();  
   
   if(choosemenu=="1" || choosemenu=="add" || choosemenu=="sum" || choosemenu=="plus"){
